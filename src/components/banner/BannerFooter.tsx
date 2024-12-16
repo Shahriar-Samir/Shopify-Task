@@ -1,9 +1,15 @@
 import React from "react";
 import InfoSection from "./BannerFooter/InfoSection";
 
-const BannerFooter = () => {
+const BannerFooter = ({ type }: { type: string }) => {
   return (
-    <section className="flex flex-col md:flex-row gap-5 items-center md:items-start justify-between mx-auto w-[90%] max-w-[1200px] bg-white absolute bottom-[-180] left-1/2 transform -translate-x-1/2 rounded-lg p-6">
+    <section
+      className={`flex-col ${
+        type === "bannerPart"
+          ? "flex mt-20"
+          : "hidden md:flex absolute bottom-[-180] left-1/2 transform -translate-x-1/2"
+      } md:flex-row gap-5 items-center md:items-start justify-between mx-auto w-[90%] max-w-[1200px] bg-white  rounded-lg p-6`}
+    >
       <InfoSection
         image="/images/BannerFooter/1.png"
         title="150+ Countries"

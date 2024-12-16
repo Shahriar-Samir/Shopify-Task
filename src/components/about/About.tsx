@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <main className="flex flex-col lg:flex-row items-baseline md:items-start justify-between mt-80 mx-auto w-[90%] max-w-[1200px] gap-10">
+    <main className="flex flex-col lg:flex-row items-baseline md:items-start justify-between mt-20 md:mt-80 mx-auto w-[90%] max-w-[1200px] gap-10">
       <section className="w-full max-w-[500px] mx-auto lg:w-1/2 flex justify-center items-center bg-white h-[561px] rounded-3xl">
         <Image
           alt="title"
