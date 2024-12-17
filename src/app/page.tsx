@@ -2,6 +2,7 @@ import About from "@/components/about/About";
 import BannerFooterPart from "@/components/banner-footer/BannerFooterPart";
 import Banner from "@/components/banner/Banner";
 import Choose from "@/components/Choose/Choose";
+import Faq from "@/components/Faq/Faq";
 import HowItWorks from "@/components/HowItWorks/HowItWorks";
 import Review from "@/components/reviews/review";
 import TravelSection from "@/components/TravelSection/TravelSection";
@@ -17,6 +18,7 @@ const Home = () => {
       <Choose />
       <HowItWorks />
       <Review />
+      <Faq />
     </main>
   );
 };
