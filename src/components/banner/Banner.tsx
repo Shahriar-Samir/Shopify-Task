@@ -11,7 +11,7 @@ const Banner = () => {
     >
       <Navbar />
       <BannerMain />
-      <BannerFooter />
+      <BannerFooter type="bannerFooter" />
     </section>
   );
 };

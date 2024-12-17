@@ -1,14 +1,16 @@
 import About from "@/components/about/About";
 import BannerFooterPart from "@/components/banner-footer/BannerFooterPart";
 import Banner from "@/components/banner/Banner";
+import TravelSection from "@/components/TravelSection/TravelSection";
 import React from "react";
 
 const Home = () => {
   return (
     <main className="bg-[#f6f6f6]">
       <Banner />
-      <BannerFooterPart/>
+      <BannerFooterPart />
       <About />
+      <TravelSection />
     </main>
   );
 };
