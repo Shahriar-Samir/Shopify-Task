@@ -3,6 +3,7 @@ import BannerFooterPart from "@/components/banner-footer/BannerFooterPart";
 import Banner from "@/components/banner/Banner";
 import Choose from "@/components/Choose/Choose";
 import HowItWorks from "@/components/HowItWorks/HowItWorks";
+import Review from "@/components/reviews/review";
 import TravelSection from "@/components/TravelSection/TravelSection";
 import React from "react";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <TravelSection />
       <Choose />
       <HowItWorks />
+      <Review />
     </main>
   );
 };
