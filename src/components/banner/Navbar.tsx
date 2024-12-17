@@ -11,7 +11,7 @@ const Navbar = () => {
         className="h-[60px] w-[88px] md:h-[80px] md:w-[108px] object-cover"
         src="/images/heading.png"
       />
-      <button className="btn font-semibold text-[#0872BA] bg-white py-2 px-5 rounded-md">
+      <button className="btn border-0 font-semibold text-[#0872BA] bg-white py-2 px-5 rounded-md">
         Login
       </button>
     </nav>
